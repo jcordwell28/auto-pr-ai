@@ -1,6 +1,6 @@
 from github_api import fetch_pr_diffs
 
-pr_url = pr_url = "https://github.com/python/cpython/pull/116412"
+pr_url = "https://github.com/jcordwell28/auto-pr-ai/pull/1"
 diffs = fetch_pr_diffs(pr_url)
 
 for filename, patch in diffs.items():
